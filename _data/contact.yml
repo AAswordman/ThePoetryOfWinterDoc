@@ -2,17 +2,20 @@
 
 - type: github
   icon: "fab fa-github"
+  url: "https://github.com/AAswordman/ThePoetryOfWinter"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: qq
+  icon: "fab fa-qq"
+  url: "https://qm.qq.com/cgi-bin/qm/qr?authKey=xYh1Jyf%2Br3qJLPef%2BI%2BIaJ2hYDg%2FZUl5cTWHWow6uEa563P8iiHVOjQsSkwKOetK&k=-UJ1az_eKbyUKhK7vgVaczHCautlp-XF&noverify=0"
+
+- type: bilibili
+  icon: "fab fa-bilibili"
+  url: "https://space.bilibili.com/399922717"
 
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
