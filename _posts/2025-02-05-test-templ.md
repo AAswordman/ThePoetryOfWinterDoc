@@ -111,8 +111,6 @@ const items = {
     }
   ]
 };
-
-// 动态生成HTML
 function generateItemCard(item) {
   return `
   <div class="item-card">
