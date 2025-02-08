@@ -8,7 +8,7 @@ tags: [开始, 版本适配表, 下载链接]
 pin: true
 math: true
 mermaid: true
-image: https://github.com/AAswordman/ThePoetryOfWinter/assets/91937041/86c0436b-90c3-44ab-acde-02062aba4cd6
+image: /images/ui/post_addon.png
 ---
 
 ## ✨ 简介
@@ -16,7 +16,7 @@ image: https://github.com/AAswordman/ThePoetryOfWinter/assets/91937041/86c0436b-
 这是一款 Minecraft 基岩版 Addon，在 Minecraft 世界中添加的多样的武器和方块，以及有挑战性的 Boss，让你的 Minecraft 世界更加精彩
 
 <blockquote class="prompt-info" markdown="1">
-获取更多信息请点击：[版本信息](https://github.com/AAswordman/ThePoetryOfWinter?tab=readme-ov-file#addon-%E7%9B%B8%E5%85%B3%E4%BF%A1%E6%81%AF) [版本对应表](https://klpbbs.com/thread-12380-1-1.html)
+获取更多信息请点击：[版本信息](https://github.com/AAswordman/ThePoetryOfWinter?tab=readme-ov-file#addon-%E7%9B%B8%E5%85%B3%E4%BF%A1%E6%81%AF)
 </blockquote>
 
 ## 🎨 特色
