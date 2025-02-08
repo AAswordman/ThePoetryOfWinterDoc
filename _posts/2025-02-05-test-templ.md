@@ -5,7 +5,6 @@ author: AAswordsman
 date: 2025-02-05 13:21:00 +0800
 categories: [调试]
 tags: [开发]
-pin: true
 math: true
 mermaid: true
 ---
@@ -71,6 +70,10 @@ mermaid: true
     color:#26bf6b;
 }
 
+.nagetive-stat {
+    color:#26bf6b;
+}
+
 .card-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -87,7 +90,7 @@ const items = {
       "title": "绝对零度",
       "subtitle": "Absolute Zero",
       "image": "/images/textures/items/absolute_zero.png",
-      "description": "lly最喜欢的<br>",
+      "description": "lly最喜欢的",
       "table":{
         "物品ID":"dec:absolute_zero",
         "物品类型":"近战武器-武士刀",
@@ -100,7 +103,7 @@ const items = {
       "title": "绝对一度",
       "subtitle": "Absolute One",
       "image": "/images/textures/items/absolute_zero_old.png",
-      "description": "lly最喜欢的<br>",
+      "description": "lly最喜欢的",
       "table":{
         "物品ID":"dec:absolute_zero",
         "物品类型":"近战武器-武士刀",
@@ -136,3 +139,5 @@ function generateItemCard(item) {
 document.getElementById('item-container').innerHTML = 
   items.items.map(item => generateItemCard(item)).join('');
 </script>
+
+</div>
