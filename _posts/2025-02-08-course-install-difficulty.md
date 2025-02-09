@@ -115,12 +115,6 @@ mermaid: true
 
 如果把 Addon 放入这两个文件夹之中,那么将会有最高的读取优先级.这两个文件夹更新方便,操作也方便.
 
-#### dev_pack 存放
-
-指的是`/a/b/c/com.mojang/development_behavior_packs`和`/a/b/c/com.mojang/development_resource_packs`文件夹.
-
-如果把 Addon 放入这两个文件夹之中,那么将会有最高的读取优先级.这两个文件夹更新方便,操作也方便.
-
 #### 地图内 pack 存放
 
 指的是`/a/b/c/com.mojang/minecraftWorlds/0rN03P3c4jo=/behavior_packs/`和`/a/b/c/com.mojang/minecraftWorlds/0rN03P3c4jo=/resource_packs`文件夹.
