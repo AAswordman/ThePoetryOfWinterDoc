@@ -1,7 +1,7 @@
 ---
 title: 2.冬之纪行诗 介绍
 description: 查看冬诗下载链接/特点/版本适配/开发者
-author: AAswordsman
+author: ChenXu
 date: 2025-02-08 15:33:00 +0800
 categories: [A总览]
 tags: [开始, 版本适配表, 下载链接]
