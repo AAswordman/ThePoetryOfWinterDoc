@@ -1,9 +1,9 @@
 ---
-title: 冬之纪行诗 介绍
+title: 2.冬之纪行诗 介绍
 description: 查看冬诗下载链接/特点/版本适配/开发者
 author: AAswordsman
 date: 2025-02-08 15:33:00 +0800
-categories: [总览]
+categories: [A总览]
 tags: [开始, 版本适配表, 下载链接]
 pin: true
 math: true
@@ -114,7 +114,7 @@ ALiFang ZHE - 提供部分模型、贴图
 基岩 - 灰烬塔建筑、建议
 
 Our Team
-竹翼团队     无上蓝痕(BlueMark Studio)
+无上蓝痕(BlueMark Studio)
 
 Special Thanks
 BunBun不是笨笨    在矿里的小金呀

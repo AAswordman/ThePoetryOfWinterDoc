@@ -1,9 +1,9 @@
 ---
-title: 文档创建模板
+title: 1.文档创建模板
 description: 给开发者们看
 author: AAswordsman
 date: 2025-02-05 13:21:00 +0800
-categories: [调试]
+categories: [D调试]
 tags: [开发]
 math: true
 mermaid: true
@@ -139,5 +139,3 @@ function generateItemCard(item) {
 document.getElementById('item-container').innerHTML = 
   items.items.map(item => generateItemCard(item)).join('');
 </script>
-
-</div>

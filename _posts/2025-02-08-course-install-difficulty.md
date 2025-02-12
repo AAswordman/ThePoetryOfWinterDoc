@@ -1,9 +1,9 @@
 ---
-title: Addon读取原理
+title: 2.Addon读取原理
 description: 全面解析安装和遇到的问题
 author: AAswordsman
-date: 2025-02-08 18:44:00 +0800
-categories: [教程, 装载]
+date: 2025-02-09 16:39:00 +0800
+categories: [B教程, A装载]
 tags: [安装]
 math: true
 mermaid: true
@@ -13,11 +13,11 @@ mermaid: true
 读文章之前，我们假设你已经知道了什么是**路径**，以及基本的文件复制、粘贴、解压、压缩、查找操作。
 最好补充一些**系统与用户**和**JSON**方面的知识。
 
-## 读取原理
+### 读取原理
 
 在我们讲[操作引导](#操作引导)之前，我们先假设游戏的文件都存放在`/a/b/c/com.mojang`的文件夹中。
 
-### 包加载原理
+#### 包加载原理
 
 在`/a/b/c/com.mojang/minecraftWorlds`中你可以看到存放的地图.假设地图文件夹名字为`0rN03P3c4jo=`,那么进入`/a/b/c/com.mojang/minecraftWorlds/0rN03P3c4jo=`,你将会看到以下结构(已省略不相关的文件):
 
@@ -105,17 +105,17 @@ mermaid: true
 
 如果找到了对应的包,那么游戏就会进行加载.
 
-### 读取优先级
+#### 读取优先级
 
 在 mc 中，遵循这样一个规则：`dev_pack存放 > 地图内pack存放 > 普通pack存放`
 
-#### dev_pack 存放
+##### dev_pack 存放
 
 指的是`/a/b/c/com.mojang/development_behavior_packs`和`/a/b/c/com.mojang/development_resource_packs`文件夹.
 
 如果把 Addon 放入这两个文件夹之中,那么将会有最高的读取优先级.这两个文件夹更新方便,操作也方便.
 
-#### 地图内 pack 存放
+##### 地图内 pack 存放
 
 指的是`/a/b/c/com.mojang/minecraftWorlds/0rN03P3c4jo=/behavior_packs/`和`/a/b/c/com.mojang/minecraftWorlds/0rN03P3c4jo=/resource_packs`文件夹.
 
@@ -125,7 +125,7 @@ mermaid: true
 
 但是还有更麻烦的:使用默认导入(普通的 pack 存放)创建地图的时候,游戏会**自动把 Addon 往地图里面复制一份** _真不知道是哪个天才想出来的设计_
 
-#### 普通 pack 存放
+##### 普通 pack 存放
 
 这里是游戏默认导入路径.指的是`/a/b/c/com.mojang/behavior_packs`和`/a/b/c/com.mojang/resource_packs`文件夹.
 
@@ -133,7 +133,7 @@ mermaid: true
 
 _不过如果是服务器的话就不一样了,服务器文件管理里面可以放心把 Addon 扔进去._
 
-### 内置导入原理
+#### 内置导入原理
 
 当文件后缀命名为`.mcaddon` `.mcpack`的时候,用 mc 打开就可以触发导入,并且导入到[普通 pack 存放](#普通-pack-存放)中
 
@@ -148,11 +148,11 @@ _不过如果是服务器的话就不一样了,服务器文件管理里面可以
 - 一定要让游戏能够读取到 `压缩包/manifest.json`,否则导入失败.
 - (可以理解 mcpack 就是上面说的 xxxx 文件夹的压缩包版本)
 
-## 操作引导
+### 操作引导
 
-### Android 端
+#### Android 端
 
-#### 版本特性
+##### 版本特性
 
 由于谷歌的蜜汁操作，Android 的版本迭代越来越快，版本之间也是相当的割裂，以至于**无法统一出一个导入工具同时适配**多个 Android 的导入 _（其实是可以的，但是很麻烦）_
 
@@ -186,7 +186,7 @@ _不过如果是服务器的话就不一样了,服务器文件管理里面可以
 
 可惜这个方案在 12 之后也被 ban 了，Android 13 14 开发者们通过各种方法绕。坏消息时，Android 14 已确认存在补丁热更新，这个文件管理越来越难绕了。
 
-#### 技术手段
+##### 技术手段
 
 那么就没办法了吗？不是，我们还有一些技术手段可以发挥。
 
@@ -206,7 +206,7 @@ Shizuku 就是这样处理的。mt 调用 Shizuku，就可以实现流畅的文�
 
 在解决了文件操作的问题后，结合[读取原理](#读取原理)，只要把 add 塞进 dev 两个文件夹，导入就结束了。
 
-### Windows 端
+#### Windows 端
 
 Windows 面临的问题很简单：找不到路径啊！
 
@@ -219,6 +219,6 @@ Windows 面临的问题很简单：找不到路径啊！
 建议给文件夹创建一个快捷方式，防止找不到位置
 </blockquote>
 
-### IOS 端
+#### IOS 端
 
 该部分等待补充完善。

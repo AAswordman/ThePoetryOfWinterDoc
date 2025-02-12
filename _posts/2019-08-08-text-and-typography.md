@@ -1,9 +1,9 @@
 ---
-title: 使用示范
+title: 1.使用示范
 description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 author: cotes
 date: 2019-08-08 11:33:00 +0800
-categories: [调试]
+categories: [D调试]
 tags: [开发]
 math: true
 mermaid: true
@@ -13,55 +13,55 @@ image:
   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
-## Headings
+### Headings
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
 
-# H1 — heading
+## H1 — heading
 
 {: .mt-4 .mb-0 }
 
-## H2 — heading
+### H2 — heading
 
 {: data-toc-skip='' .mt-4 .mb-0 }
 
-### H3 — heading
+#### H3 — heading
 
 {: data-toc-skip='' .mt-4 .mb-0 }
 
-#### H4 — heading
+##### H4 — heading
 
 {: data-toc-skip='' .mt-4 }
 
 <!-- markdownlint-restore -->
 
-## Paragraph
+### Paragraph
 
 Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilisis ac. Phasellus semper dui non purus ultrices sodales. Aliquam ante lorem, ornare a feugiat ac, finibus nec mauris. Vivamus ut tristique nisi. Sed vel leo vulputate, efficitur risus non, posuere mi. Nullam tincidunt bibendum rutrum. Proin commodo ornare sapien. Vivamus interdum diam sed sapien blandit, sit amet aliquam risus mattis. Nullam arcu turpis, mollis quis laoreet at, placerat id nibh. Suspendisse venenatis eros eros.
 
-## Lists
+### Lists
 
-### Ordered list
+#### Ordered list
 
 1. Firstly
 2. Secondly
 3. Thirdly
 
-### Unordered list
+#### Unordered list
 
 - Chapter
   - Section
     - Paragraph
 
-### ToDo list
+#### ToDo list
 
 - [ ] Job
   - [x] Step 1
   - [x] Step 2
   - [ ] Step 3
 
-### Description list
+#### Description list
 
 Sun
 : the star around which the earth orbits
@@ -69,11 +69,11 @@ Sun
 Moon
 : the natural satellite of the earth, visible by reflected light from the sun
 
-## Block Quote
+### Block Quote
 
 > This line shows the _block quote_.
 
-## Prompts
+### Prompts
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
@@ -92,7 +92,7 @@ Moon
 
 <!-- markdownlint-restore -->
 
-## Tables
+### Tables
 
 | Company                      | Contact          | Country |
 | :--------------------------- | :--------------- | ------: |
@@ -100,31 +100,31 @@ Moon
 | Island Trading               | Helen Bennett    |      UK |
 | Magazzini Alimentari Riuniti | Giovanni Rovelli |   Italy |
 
-## Links
+### Links
 
 <http://127.0.0.1:4000>
 
-## Footnote
+### Footnote
 
 Click the hook will locate the footnote[^footnote], and here is another footnote[^fn-nth-2].
 
-## Inline code
+### Inline code
 
 This is an example of `Inline Code`.
 
-## Filepath
+### Filepath
 
 Here is the `/path/to/the/file.extend`{: .filepath}.
 
-## Code blocks
+### Code blocks
 
-### Common
+#### Common
 
 ```text
 This is a common code snippet, without syntax highlight and line number.
 ```
 
-### Specific Language
+#### Specific Language
 
 ```bash
 if [ $? -ne 0 ]; then
@@ -133,7 +133,7 @@ if [ $? -ne 0 ]; then
 fi;
 ```
 
-### Specific filename
+#### Specific filename
 
 ```sass
 @import
@@ -143,7 +143,7 @@ fi;
 
 {: file='\_sass/jekyll-theme-chirpy.scss'}
 
-## Mathematics
+### Mathematics
 
 The mathematics powered by [**MathJax**](https://www.mathjax.org/):
 
@@ -160,7 +160,7 @@ When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
-## Mermaid SVG
+### Mermaid SVG
 
 ```mermaid
  gantt
@@ -170,39 +170,39 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
   cherry :active, c, after b a, 1d
 ```
 
-## Images
+### Images
 
-### Default (with caption)
+#### Default (with caption)
 
 ![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" }
 _Full screen width and center alignment_
 
-### Left aligned
+#### Left aligned
 
 ![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" .w-75 .normal}
 
-### Float to left
+#### Float to left
 
 ![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" .w-50 .left}
 Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecenas pharetra, sem sit amet interdum posuere, tellus lacus eleifend magna, ac lobortis felis ipsum id sapien. Proin ornare rutrum metus, ac convallis diam volutpat sit amet. Phasellus volutpat, elit sit amet tincidunt mollis, felis mi scelerisque mauris, ut facilisis leo magna accumsan sapien. In rutrum vehicula nisl eget tempor. Nullam maximus ullamcorper libero non maximus. Integer ultricies velit id convallis varius. Praesent eu nisl eu urna finibus ultrices id nec ex. Mauris ac mattis quam. Fusce aliquam est nec sapien bibendum, vitae malesuada ligula condimentum.
 
-### Float to right
+#### Float to right
 
 ![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" .w-50 .right}
 Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecenas pharetra, sem sit amet interdum posuere, tellus lacus eleifend magna, ac lobortis felis ipsum id sapien. Proin ornare rutrum metus, ac convallis diam volutpat sit amet. Phasellus volutpat, elit sit amet tincidunt mollis, felis mi scelerisque mauris, ut facilisis leo magna accumsan sapien. In rutrum vehicula nisl eget tempor. Nullam maximus ullamcorper libero non maximus. Integer ultricies velit id convallis varius. Praesent eu nisl eu urna finibus ultrices id nec ex. Mauris ac mattis quam. Fusce aliquam est nec sapien bibendum, vitae malesuada ligula condimentum.
 
-### Dark/Light mode & Shadow
+#### Dark/Light mode & Shadow
 
 The image below will toggle dark/light mode based on theme preference, notice it has shadows.
 
 ![light mode only](/posts/20190808/devtools-light.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
 ![dark mode only](/posts/20190808/devtools-dark.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 
-## Video
+### Video
 
 {% include embed/youtube.html id='Balreaj8Yqs' %}
 
-## Reverse Footnote
+### Reverse Footnote
 
 [^footnote]: The footnote source
 [^fn-nth-2]: The 2nd footnote source
