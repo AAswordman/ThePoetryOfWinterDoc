@@ -2,9 +2,20 @@
 title: 1.游戏全局机制
 description: 介绍了游戏中主要的全局机制
 author: AAswordsman
-date: 2025-02-05 13:21:00 +0800
+date: 2025-02-12 23:59:00 +0800
 categories: [C参考, A游戏]
-tags: [参考, 机制]
+tags:
+  [
+    参考,
+    机制,
+    死亡模式,
+    实体清理,
+    夜晚事件,
+    觉醒末影龙,
+    难度,
+    ui刷新间隔,
+    连锁挖矿,
+  ]
 math: true
 mermaid: true
 ---

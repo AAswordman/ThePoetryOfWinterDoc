@@ -1,10 +1,10 @@
 ---
-title: 2.遗迹生成算法
+title: 4.遗迹生成算法
 description: 告诉你为什么你找不到boss建筑，从而让你知道怎么找才是对的。
 author: AAswordsman
 date: 2025-02-12 13:21:00 +0800
 categories: [C参考, A游戏]
-tags: [参考, 机制, 遗迹]
+tags: [参考, 机制, 遗迹, 建筑补丁, 群系]
 math: true
 mermaid: true
 ---
