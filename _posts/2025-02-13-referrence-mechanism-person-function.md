@@ -4,7 +4,7 @@ description: 介绍了游戏中主要的基本个体机制
 author: AAswordsman
 date: 2025-02-13 22:50:00 +0800
 categories: [C参考, A游戏]
-tags: [参考, 机制, 传送, 领地, 友好模式, 粒子效果]
+tags: [参考, 机制, 传送, 领地, 友好模式, 粒子效果, 任务]
 math: true
 mermaid: true
 ---
