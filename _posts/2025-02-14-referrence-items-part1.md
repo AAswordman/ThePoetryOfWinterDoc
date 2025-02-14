@@ -11,6 +11,10 @@ mermaid: true
 
 物品技能文档 part I
 
+<blockquote class="prompt-danger">
+这部分内容由deepseek生成，如果有强烈的不适请停止阅读。
+</blockquote>
+
 ## 粒子系列物品
 
 ### 火焰粒子/爱心粒子/光环粒子/符咒粒子
