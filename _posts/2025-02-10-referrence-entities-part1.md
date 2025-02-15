@@ -3,7 +3,7 @@ title: 1.实体信息（1）
 description: 查询游戏中物品合成/用途
 author: Smileheart
 date: 2025-02-10 22:12:00 +0800
-categories: [C参考, C实体]
+categories: [C参考, D实体]
 tags: [参考, 物品]
 math: true
 mermaid: true
