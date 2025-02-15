@@ -33,7 +33,8 @@ mermaid: true
 
 ## 1. 沙漠遗迹传送门（未实装）
 
-<details>
+<details markdown="1">
+
 **激活条件**：使用 `启程钥匙` 右键点击 `魔能块`
 
 ### 结构布局
