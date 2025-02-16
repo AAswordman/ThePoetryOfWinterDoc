@@ -64,10 +64,15 @@ _我们非常建议各位腐竹去看看那篇原理文章，免得说出一些�
 | ---------------------------- | ------------------------------------------------------------------- |
 | 协议加载正常（第一次运行时） | ![alt text](/images/post/2025-02-08-course-install-easy/image.png)  |
 | 聊天框显示信息               | ![alt text](/images/post/2025-02-08-course-install-easy/image2.png) |
-| 血条正常显示                 | ![alt text](/images/post/2025-02-08-course-install-easy/image3.png) |
+| 血条正常显示（新版本非必须） | ![alt text](/images/post/2025-02-08-course-install-easy/image3.png) |
+
+<blockquote class="prompt-info">
+1.9.3R2版本，由于加了特殊的优化，开局没有血条可能是正常的，这个时候走几步切换手持就能加载血条了。
+</blockquote>
 
 <blockquote class="prompt-warning">
-爱心是否存在不可做为加载的标志，因为有一些特殊情况存在
+爱心是否存在不可做为加载的标志，因为有一些特殊情况存在。
+但是长按爱心弹出菜单能说明没问题。
 </blockquote>
 
 #### 问题自查
