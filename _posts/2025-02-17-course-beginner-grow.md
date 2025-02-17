@@ -22,7 +22,7 @@ _任务界面如图所示_
 <td><img src="/images/post/2025-02-17-course-beginner-grow/image-1.png"></td>
 <td><img src="/images/post/2025-02-17-course-beginner-grow/image-2.png"></td>
 </tr></table>
-<center><div style="color: #6D6C6C;font-size: 14px;padding: 1px;">这里输入题注</div><br></center>
+<center><div style="color: #6D6C6C;font-size: 14px;padding: 1px;">右击/长按使用世界探索者</div><br></center>
 
 我们推荐按照任务的顺序去逐个攻破 BOSS。
 
