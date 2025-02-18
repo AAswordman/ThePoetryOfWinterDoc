@@ -15,7 +15,7 @@ class LocaleHelper {
   }
 
   static get locale() {
-    return document.documentElement.getAttribute('lang').substring(0, 2);
+    return document.documentElement.getAttribute('lang')?.substring(0, 2) ?? 'zh';
   }
 
   static getTimestamp(elem) {
